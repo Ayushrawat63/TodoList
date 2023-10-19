@@ -56,7 +56,7 @@ const TodoList = () => {
     };
     const toDelete = (value) => {
         const newList = items.filter((curElem) => {
-            return curElem.id != value;
+            return curElem.id !== value;
         });
         setItems(newList);
 
@@ -86,7 +86,7 @@ const TodoList = () => {
             <div className="main-div">
                 <div className="child-div">
                     <figure>
-                        <img src="../image/todoIcon.png"/>
+                        <img src="../image/todoIcon.png" alt="todo logo"/>
                         <figcaption>Add Your List Here</figcaption>
                     </figure>
                     <div className="addItems">
