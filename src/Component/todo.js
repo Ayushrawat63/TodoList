@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./todo.css"
+import "../image/todoIcon.png"
 
 
 
@@ -86,7 +87,7 @@ const TodoList = () => {
             <div className="main-div">
                 <div className="child-div">
                     <figure>
-                        <img src="../image/todoIcon.png" alt="todo logo"/>
+                         <div></div>
                         <figcaption>Add Your List Here</figcaption>
                     </figure>
                     <div className="addItems">

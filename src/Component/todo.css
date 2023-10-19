@@ -16,6 +16,7 @@ html {
   background: #6f77e9;
   display: flex;
   justify-content: center;
+  
   /* align-items: center; */
 }
 
@@ -23,10 +24,24 @@ html {
   text-align: center;
   margin-top: 12rem;
 }
+.child-div figure div{
+  background-image: url('../image/todoIcon.png');
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
 
+  
+}
+.child-div figure{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .child-div figure img {
   width: 15rem;
   height: 15rem;
+ 
   
 }
 
